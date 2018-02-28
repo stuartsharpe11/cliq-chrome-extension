@@ -14,6 +14,10 @@ body, section {			/* Change width and height to own preferences */
 	overflow-y: hidden;
 }
 
+.chrome-title {
+	text-align: center;
+}
+
 .navbar-custom {
     color: black;
     background-color: white;
@@ -28,9 +32,25 @@ body, section {			/* Change width and height to own preferences */
     color: black;
 }
 
+.login {
+	margin: 25px;
+}
+
+.login-btn {
+	margin: 5px 0px 5px 0px;
+}
+
+.third-party-login {
+	margin: 5px;
+	float: center;
+}
+
 .footer {
 	position: absolute;
+	margin-left: 20px;
+	align: bottom;
 }
+
 
 /* Basic style tweaks */
 section { padding: 5px;}
