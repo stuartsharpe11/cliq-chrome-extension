@@ -1,4 +1,4 @@
-# Chrome Extension Twitter Bootstrap 3 Template
+# Chrome Extension Twitter Bootstrap 4 Template
 > A template for making a Google Chrome Extension, using Twitter Bootstrap 3.
 
 ![Screenshot](http://i.imgur.com/RK4GhXu.jpg)
