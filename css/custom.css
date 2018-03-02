@@ -80,7 +80,50 @@ body, section {			/* Change width and height to own preferences */
 	padding-top: 5px;
 }
 
+.content-area {
+	height: 300px;
+	width: 350px;
+	border: 1px solid lightgrey;
+	border-radius: none;
+	float: center;
+	margin-left: 10px; /* 400px - 350px = 25px / 2 = 12.5 */
+}
+.nav-custom {
+	border-radius:none;
+}
 
+.tag-group {
+	margin:15px;
+}
+
+.note-group {
+	margin: 15px 0px 0px 0px;
+	font-size: 12px;
+}
+
+#inputprofiletags {
+	width: 350px;
+	margin: 10px 0px 0px 10px;
+	border-radius: 0px;
+}
+
+#add-tag {
+	width: 120px;
+	margin: 10px 0px 0px 10px;
+	border-radius: 0px;
+}
+
+#save-changes {
+	width: 150px;
+	margin: 25px 0px 0px 10px;
+	border-radius: 0px;
+}
+
+#auto-saved {
+	margin: 0px 0px 0px 12px;
+	border-radius: 0px;
+	color:grey;
+}
 
 /* Basic style tweaks */
 section { padding: 5px;}

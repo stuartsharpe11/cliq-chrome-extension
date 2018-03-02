@@ -39,32 +39,27 @@
         <div class="content-area mt-3">
             <ul class="nav nav-tabs">
               <li class="nav-item">
-                <a class="nav-link" href="#">Notes</a>
+                <a class="nav-link active" href="#">Notes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Tags</a>
+                <a class="nav-link" href="#">Tags</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Reminders</a>
               </li>
             </ul>
-            <div class="tag-group">
-              <button type="button" class="btn btn-outline-secondary btn-sm individual-tag">Python
-                <i class="fas fa-times"></i>
-              </button>
-              <button type="button" class="btn btn-outline-secondary btn-sm individual-tag">SQL
-                <i class="fas fa-times"></i>
-              </button>
-              <button type="button" class="btn btn-outline-secondary btn-sm individual-tag">Senior
-                <i class="fas fa-times"></i>
-              </button>
-              <button type="button" class="btn btn-outline-secondary btn-sm individual-tag">AWS
-                <i class="fas fa-times"></i>
-              </button>
-            </div>
+            <ul class="note-group">
+              <li>Cras justo odio</li>
+              <li>Dapibus ac facilisis in</li>
+              <li>Morbi leo risus</li>
+              <li>Porta ac consectetur ac</li>
+              <li>Vestibulum at eros</li>
+            </ul>
         </div>
-        <input type="email" class="form-control" id="inputprofiletags" aria-describedby="emailHelp" placeholder="Type new tags here...">
-        <button type="button" class="btn btn-success" id="add-tag">Add Tag</button>
+        <button type="button" class="btn btn-success" id="save-changes">Save Changes</button>
+        <div id="auto-saved">
+          <small>Saved at 12:32PM</small>
+        </div>
     </div>
   </body>
 </html>
